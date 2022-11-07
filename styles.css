@@ -1,0 +1,70 @@
+.conferencia {
+    position: relative;
+    width: 100%;
+  }
+  .conferencia .card-img-overlay img {
+    max-height: 40rem;
+    height: 100px;
+ 
+  }
+  .overlay-div{
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    background-color:#000;
+    opacity:.5;
+  }
+  .card-img-overlay{
+    position: absolute;
+    width: 50%;
+    padding-top: 15%;
+    margin-right: 5%;
+  }
+  #oradores{
+    width: 85%;
+  }
+  #oradores p{
+    font-size: 0.9rem;
+  }
+  #oradorTextarea{
+    height: 7rem;
+    font-size: 1.2rem;
+  }
+  legend{
+    font-size: 1rem;
+  }
+  #textaHelp{
+    font-size: 0.7rem;
+  }
+  .form-control{
+    font-size: 0.9rem;
+  }
+  #cIgnite{
+    border-bottom: 1px dotted #000;
+    text-decoration: none;
+  }
+  footer{
+    background-image: linear-gradient(to right, #1D3947ff , #1F5271ff);
+  }
+  #cartel{
+    font-size: 0.8rem;
+  }
+  #lugarFecha{
+    font-size: 0.8rem ;
+  }
+  .boton button{
+    background-color: #96C93Eff;
+    border-radius: 0.3rem;
+  }
+  /*button^*/
+  .main{
+    width: 60%;
+  }
+  #formulario input, select{
+    height: 3.1rem;
+    font-size: 1.2rem;
+    border-radius: 0.3rem;
+  }
+  label{
+    font-size: 1.2rem;
+  }
