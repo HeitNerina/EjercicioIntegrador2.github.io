@@ -4,7 +4,7 @@ function calculoTicket(){
     let cat=document.getElementById("categoria");
     let categoria = cat.value;
     if(cant<=0){
-        console.log("La cantidad tiene que ser superior a 0. Reintente");
+        alert("La cantidad tiene que ser superior a 0. Reintente");
     }else{
         switch(categoria){
             case "Estudiante": montoFinal=cant*(200-(200*80)/100); break;
